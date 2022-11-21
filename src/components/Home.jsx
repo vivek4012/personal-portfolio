@@ -34,7 +34,7 @@ function Home () {
         <div className='iconmain'>
             <a target="_blank" rel="noopener noreferrer" href='https://www.linkedin.com/in/vivek-b-raj-b724a6b6/'> <div className='icon'><img className='iconimage' src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png" alt="" /></div></a>
             <a target="_blank" rel="noopener noreferrer" href='https://github.com/vivek4012'> <div className='icon'><img className='iconimage' src="https://cdn-icons-png.flaticon.com/512/1051/1051326.png" alt="" /></div></a>
-            <a target="_blank" rel="noopener noreferrer" href='https://github.com/vivek4012'> <div className='icon'><img className='iconimage' src="https://cdn-icons-png.flaticon.com/512/1782/1782765.png" alt="" /></div></a>
+            <a target="_blank" rel="noopener noreferrer" href='https://mailto:b.vivek47@gmail.com'> <div className='icon'><img className='iconimage' src="https://cdn-icons-png.flaticon.com/512/1782/1782765.png" alt="" /></div></a>
         </div>
     </div>
     );

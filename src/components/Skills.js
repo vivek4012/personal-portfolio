@@ -81,7 +81,7 @@ function Skills () {
         <Skills2/>
         <Add/>
 
-        <ParticleBackground/>
+        {/* <ParticleBackground/> */}
         </>
     )
  }

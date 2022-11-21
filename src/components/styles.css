@@ -392,7 +392,7 @@ width: 100%;
 .title {
   font-size: 3.8rem;
   text-align: center;
-  font-family: "Bebas Neue", sans-serif; 
+   
  
 }
 
@@ -430,13 +430,15 @@ h3 {
 }
 
 .schoolButton {
-  background-color: #f9c74f;
+  background-color:  #06d6a0;
 }
 
 .schoolButton:hover {
-  background-color: #f3bc3c;
+  background-color:  #06d6a0;
 }
-
+#root > div:nth-child(2) > div > div > div:nth-child(4) > span {
+  background-color:#06d6a0 !important;
+}
 @media only screen and (max-width: 1700px) {
   .vertical-timeline-element-date {
     display: block !important;
@@ -444,4 +446,21 @@ h3 {
     color: rgb(44, 44, 44);
     margin-top: 1.5em;
   }
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+ 
+  margin: auto;
+}
+.full{
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+    align-items: center;
+}
+.margintop{
+  margin-top: 25px;
 }
