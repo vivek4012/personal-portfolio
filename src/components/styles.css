@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
  
- 
+ .image32{
+height: 15rem;
+
+
+ }
 .card2{
   width: 20rem;
+  
 }
 .container2{
   width: 80%;

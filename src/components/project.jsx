@@ -2,7 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Container, Row, Col } from 'react-bootstrap';
 import "./styles.css"
-
+import { useNavigate } from 'react-router-dom';
 function Project() {
     return (
         < Container  >
@@ -13,7 +13,7 @@ function Project() {
             </Row>
             <Row>
                 <Col><Houz /></Col>
-                <Col><Voxel /></Col>
+                {/* <Col><Voxel /></Col> */}
 
             </Row>
            
@@ -25,7 +25,7 @@ function Portfolio() {
     return (
         <div style={{ marginTop: "100px" }} >
              <Card className='card2' style={{ margin: "auto" }}>
-                <Card.Img variant="top" src="https://images.pexels.com/photos/5331074/pexels-photo-5331074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+                <Card.Img className='image32'  variant="top" src="https://firebasestorage.googleapis.com/v0/b/airbnb-auth-599df.appspot.com/o/personal%20portfolio.png?alt=media&token=b764fa76-d468-4902-807b-fd79cf873ccf" />
                 <Card.Body>
                     <Card.Title> <h2 style={{ fontWeight: "bolder" }}>  personal portfolio website</h2 > </Card.Title>
                     <Card.Text>
@@ -40,7 +40,7 @@ function Portfolio() {
                         <li class="list-group-item">typewriter-effect</li>
                         <li class="list-group-item">tsparticles </li>
                     </ul>
-                    <Button variant="primary" style={{ marginRight: "20px" }} href=""> live-site  </Button>
+                    <Button variant="primary" style={{ marginRight: "20px" }} href="/" > live-site  </Button>
                     <Button variant="primary" href="">git-hub </Button>
 
                 </Card.Body>
@@ -54,7 +54,7 @@ function Airbnb() {
     return (
         <div style={{ marginTop: "100px" }} >
              <Card className='card2' style={{ margin: "auto" }}>
-                <Card.Img variant="top" src="https://images.pexels.com/photos/5331074/pexels-photo-5331074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+                <Card.Img variant="top" className='image32'  src="https://firebasestorage.googleapis.com/v0/b/airbnb-auth-599df.appspot.com/o/airbnb.jpg?alt=media&token=39ab583c-6c62-430e-9706-a9437ee34330" />
                 <Card.Body>
                     <Card.Title> <h2 style={{ fontWeight: "bolder" }}>  Airbnb- experiances clone </h2 > </Card.Title>
                     <Card.Text>
@@ -68,8 +68,8 @@ function Airbnb() {
                         <li class="list-group-item">React Date-picker</li>
                         <li class="list-group-item"> React-Slick-Coursal </li>
                     </ul>
-                    <Button variant="primary" style={{ marginRight: "20px" }} href=""> live-site  </Button>
-                    <Button variant="primary" href="">git-hub </Button>
+                    <Button variant="primary" style={{ marginRight: "20px" }} href="https://airbnb-experiances.netlify.app/"  target="_blank"> live-site  </Button>
+                    <Button variant="primary" href="https://github.com/vivek4012/Airbnb-Experiences" target="_blank">git-hub </Button>
 
                 </Card.Body>
             </Card>
@@ -82,7 +82,7 @@ function Houz() {
     return (
         <div style={{ marginTop: "100px" }} >
              <Card className='card2' style={{ margin: "auto" }}>
-                <Card.Img variant="top" src="https://images.pexels.com/photos/5331074/pexels-photo-5331074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+                <Card.Img variant="top"  className='image32'  src="https://firebasestorage.googleapis.com/v0/b/airbnb-auth-599df.appspot.com/o/houz.jpg?alt=media&token=0b7f780b-c39e-46a4-8f18-45e8aac60c48" />
                 <Card.Body>
                     <Card.Title> <h2 style={{ fontWeight: "bolder" }}>  Houze-craft  </h2 > </Card.Title>
                     <Card.Text>
@@ -97,8 +97,8 @@ function Houz() {
                         <li class="list-group-item">React-Redux</li>
                         <li class="list-group-item"> React-Icons </li>
                     </ul>
-                    <Button variant="primary" style={{ marginRight: "20px" }} href=""> live-site  </Button>
-                    <Button variant="primary" href="">git-hub </Button>
+                    <Button variant="primary" style={{ marginRight: "20px" }} href="https://housekraft.netlify.app/" target="_blank"> live-site  </Button>
+                    <Button variant="primary" href="https://github.com/vivek4012/Housekraft" target="_blank">git-hub </Button>
 
                 </Card.Body>
             </Card>
@@ -110,7 +110,7 @@ function Voxel() {
     return (
         <div style={{ marginTop: "100px" }} >
              <Card className='card2' style={{ margin: "auto" }}>
-                <Card.Img variant="top" src="https://images.pexels.com/photos/5331074/pexels-photo-5331074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+                <Card.Img variant="top" className='image32'  src="https://images.pexels.com/photos/5331074/pexels-photo-5331074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
                 <Card.Body>
                     <Card.Title> <h2 style={{ fontWeight: "bolder" }}> Voxel </h2 > </Card.Title>
                     <Card.Text>
