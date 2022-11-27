@@ -2,7 +2,7 @@
  
  .image32{
 height: 15rem;
-
+object-fit: cover;
 
  }
 .card2{
