@@ -24,7 +24,7 @@ export const About = () => {
 
 
                 <div className='image'>
-                    <img className='image2' src="https://images.pexels.com/photos/4577385/pexels-photo-4577385.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" />
+                    <img className='image2' src="https://firebasestorage.googleapis.com/v0/b/airbnb-auth-599df.appspot.com/o/vivek2.png?alt=media&token=cde78ee3-d5c1-4c20-a0ed-2b9fefde5d02" alt="" />
                 </div>
 
             </div>
