@@ -68,7 +68,7 @@ function Airbnb() {
                         <li class="list-group-item">React Date-picker</li>
                         <li class="list-group-item"> React-Slick-Coursal </li>
                     </ul>
-                    <Button variant="primary" style={{ marginRight: "20px" }} href="https://airbnb-experiances.netlify.app/"  target="_blank"> live-site  </Button>
+                    <Button variant="primary" style={{ marginRight: "20px" }} href="https://airbnbexperiences.vercel.app/"  target="_blank"> live-site  </Button>
                     <Button variant="primary" href="https://github.com/vivek4012/Airbnb-Experiences" target="_blank">git-hub </Button>
 
                 </Card.Body>
@@ -97,7 +97,7 @@ function Houz() {
                         <li class="list-group-item">React-Redux</li>
                         <li class="list-group-item"> React-Icons </li>
                     </ul>
-                    <Button variant="primary" style={{ marginRight: "20px" }} href="https://housekraft.netlify.app/" target="_blank"> live-site  </Button>
+                    <Button variant="primary" style={{ marginRight: "20px" }} href="https://housekraft.vercel.app/" target="_blank"> live-site  </Button>
                     <Button variant="primary" href="https://github.com/vivek4012/Housekraft" target="_blank">git-hub </Button>
 
                 </Card.Body>
