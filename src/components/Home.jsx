@@ -3,8 +3,6 @@ import "./styles.css"
 import Typewriter from 'typewriter-effect'
 import ParticleBackground from "./particlebackground";
 
- 
-
 function Home () {
     return (
       < >
@@ -19,7 +17,7 @@ function Home () {
         <div className="main25">
         <h3 className='text2'>Vivek</h3>
         <span>  <span className='text'> i'm</span> <span> {" "}</span>
-            <Typewriter options={{ loop: true }} onInit={(Typewriter) => {
+            <Typewriter className="text2" options={{ loop: true }} onInit={(Typewriter) => {
                 Typewriter.typeString(" developer")
                     .pauseFor(2000)
                     .deleteAll()

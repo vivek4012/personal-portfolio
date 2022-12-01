@@ -117,26 +117,42 @@ object-fit: cover;
 text-align: center;
  justify-content: center;
  background: black;
-
+z-index: 11;
 }
  .text{
     font-size:xx-large;
     font-weight: bolder;
+    color: azure;
  }
  .text2{
     font-size:50px;
     font-weight: bolder;
+    color: azure;
  }
   .icon{
     height: 50px;
    width: 50px;
    margin-left: 20px;
    margin-right: 20px;
-background-color: gray; 
+background-color: azure; 
  border-radius: 999px;
  z-index: 10; 
- position :relative
+ position :relative;
+ margin-top: 25px;
+ -webkit-transition: all .25s;
+ -moz-transition: all .25s;
+ transition: all .25s;
   } 
+.icon:hover{
+  -webkit-transform: scale(1.25);
+  
+  -moz-transform: scale(1.25);
+
+  transform: scale(1.25);
+
+}
+
+
   .icon4{
     height: 80px;
     width: 80px;
@@ -183,7 +199,7 @@ margin-bottom: 25px;
     width: 100%;
   } 
   .zindex{
-    z-index: 10;
+    z-index: 50;
     position: fixed;
     width: 100%;
      
@@ -198,6 +214,7 @@ margin-bottom: 25px;
     letter-spacing: .1em;
     text-indent: .3em;
     border-bottom: 3px solid transparent;
+    color: azure !important;
   }
  
   .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -259,6 +276,7 @@ margin-bottom: 25px;
   .Typewriter__wrapper {
     font-size: xx-large;
     font-weight: bold;
+    color: azure;
   }
   
   .Typewriter__cursor {
@@ -469,4 +487,39 @@ justify-content: center;
 }
 .margintop{
   margin-top: 25px;
+}
+.list-group-item{
+  padding: 0.5rem 0rem !important;
+}
+
+.btn{
+  -webkit-transition: all 1s !important;
+  -moz-transition: all 1s !important;
+  transition: all 1 !important;
+}
+.btn:hover{
+  -webkit-transform: scale(1.25) !important;
+ 
+  -moz-transform: scale(1.25) !important;
+ 
+  transform: scale(1.25) !important;
+
+}
+a{
+  color: black !important;
+  text-decoration: none !important;
+}
+   
+.cardhover{
+  -webkit-transition: all 1s !important;
+  -moz-transition: all 1s !important;
+  transition: all 1 !important;
+
+}
+.cardhover:hover{
+  -webkit-transform: scale(1.25) !important;
+ 
+  -moz-transform: scale(1.25) !important;
+ 
+  transform: scale(1.25) !important;
 }

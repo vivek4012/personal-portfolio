@@ -17,13 +17,13 @@ import Contact from "./components/contact"
 import "./components/styles.css"
 
 function App() {
-  console.log(Contact)
+  
   return (
     <BrowserRouter>
       <div className='zindex'>
         <Navbar bg="dark" variant='dark' expand="lg" collapseOnSelect={true}>
           <Container fluid>
-            <Navbar.Brand href="#">vivek</Navbar.Brand>
+            <Navbar.Brand style={{marginLeft:"1.1rem", marginBottom:"8px"}}>Vivek</Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse className=' navbar-collapse' >
               <Nav variant="pills" defaultActiveKey="link-6" >
@@ -34,10 +34,10 @@ function App() {
                   <Nav.Link eventKey="link-1" as={Link} to="/about" className="navbar__link">About</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="link-2" as={Link} to="/skills" className="navbar__link"> skills</Nav.Link>
+                  <Nav.Link eventKey="link-2" as={Link} to="/skills" className="navbar__link"> Skills</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="link-3" as={Link} to="/Project" className="navbar__link" > projects</Nav.Link>
+                  <Nav.Link eventKey="link-3" as={Link} to="/Project" className="navbar__link" > Projects</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="link-4" as={Link} to="/education" className="navbar__link"> Timeline</Nav.Link>

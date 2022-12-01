@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div>
-      <h1 className="title">a </h1>
+      <h1 className="title">Timeline of events </h1>
       <VerticalTimeline  lineColor= "black">
      
         {timelineElements.map((element) => {
