@@ -8,12 +8,17 @@ function Project() {
         < Container  >
             <Row>
                 <Col><Portfolio /></Col>
-                <Col><Airbnb /></Col>
+                <Col><Zomato /></Col>
 
             </Row>
             <Row>
                 <Col><Houz /></Col>
+                <Col><Airbnb /></Col>
+
+            </Row>
+            <Row>
                 <Col><Voxel /></Col>
+               
 
             </Row>
            
@@ -141,4 +146,43 @@ function Voxel() {
     )
 
 }
+
+
+
+
+function Zomato() {
+    return (
+        <a href="https://drive.google.com/file/d/1VL_h0UC9v-WOXf7ynaCU3COOoG40ZZQQ/view?usp=sharing " target="_blank"  rel="noreferrer">
+        <div style={{ marginTop: "100px" }} >
+             <Card className='card2' style={{ margin: "auto" }}>
+                <Card.Img variant="top" className='image32 '  src=" https://firebasestorage.googleapis.com/v0/b/airbnb-auth-599df.appspot.com/o/WhatsApp%20Image%202022-12-16%20at%208.12.52%20PM.jpg?alt=media&token=a46fd4a6-b81a-4066-a41f-443eed7a680b" />
+                <Card.Body>
+                    <Card.Title> <h2 style={{ fontWeight: "bolder" }}>  Zomato clone </h2 > </Card.Title>
+                    <Card.Text>
+                         basic Zomato Built using React-native clicking on the card  you can download the Apk and install  it  , maps wont work on final Apk because its a paid API from google 
+                    </Card.Text>
+                    <ul class="list-group list-group-flush">
+                        <h5>Stack used : React-Native , Nativewind CSS </h5>
+                        <h4> Pakages used</h4>
+
+                        <li class="list-group-item">React-Redux </li>
+                        <li class="list-group-item">React-Native-progress</li>
+                        <li class="list-group-item"> React-Native-maps </li>
+                    </ul>
+                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/vivek4012/zomato'> <div className='icon'><img className='iconimage' src="https://cdn-icons-png.flaticon.com/512/1051/1051326.png" alt="" /></div></a>
+                    
+
+                </Card.Body>
+            </Card>
+        </div>
+          </a>
+
+    )
+
+} 
+
+
+
+
+
 export default Project;
