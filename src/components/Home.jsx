@@ -1,7 +1,8 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
 import "./styles.css"
 import Typewriter from 'typewriter-effect'
 import ParticleBackground from "./particlebackground";
+import { Alert,Button,Modal } from 'react-bootstrap';
 
 function Home () {
     return (
@@ -12,7 +13,13 @@ function Home () {
     );
   }
   
-  function CenterTitle() {
+  function CenterTitle() { 
+ 
+    const [show, setShow] = useState(true);
+
+    const handleClose = () => setShow(false);
+  
+  
     return (
         <div className="main25">
         <h3 className='text2'>Vivek</h3>
@@ -34,6 +41,15 @@ function Home () {
             <a target="_blank" rel="noopener noreferrer" href='https://github.com/vivek4012'> <div className='icon'><img className='iconimage' src="https://cdn-icons-png.flaticon.com/512/1051/1051326.png" alt="" /></div></a>
             <a target="_blank" rel="noopener noreferrer" href='https://mailto:b.vivek47@gmail.com'> <div className='icon'><img className='iconimage' src="https://cdn-icons-png.flaticon.com/512/1782/1782765.png" alt="" /></div></a>
         </div>
+        <>
+        <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title> please  click on top navigation bar to access projects education and skills</Modal.Title>
+        </Modal.Header>
+        
+      </Modal>
+    </>
+
     </div>
     );
   }
